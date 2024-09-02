@@ -12,7 +12,6 @@ import { combineReducers } from 'redux';
 import { configureStore } from '@reduxjs/toolkit';
 
 const logger = createLogger();
-
 const rootReducers = combineReducers({ searchRobots, requestRobots })
 
 const store = configureStore({
